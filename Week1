@@ -1,0 +1,19 @@
+WEEK 1: Introduction to Java Basics and Class Fundamentals
+Q: Write a simple Java Program that prints “Hello World” to the console.
+Procedure:
+public class Hello: Defines a universally accessible blueprint named Hello.
+public static main: The standard starting execution point for any standalone Java application.
+String[] args: A parameter array that holds text values passed into the program during startup.
+System.out.println(): A built-in system command that routes text data to the standard console screen.
+Program:
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello World&quot;);
+    }
+}
+Output:
+Hello World
+Inference:
+The identical task can be written as an alternative variant using an external text block, a character array, or
+the formatting variant System.out.printf(). For instance, invoking System.out.printf(&quot;%s\n&quot;, &quot;Hello World&quot;);
+replaces standard text routing with structured string formatting.
