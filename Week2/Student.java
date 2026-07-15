@@ -3,7 +3,7 @@ public class Student {
   String name, dept;
   public static void main(String[] args) {
     Student s = new Student();
-    s.rollno = 30;
+    s.rollno = 20;
     s.name = &quot;ABC&quot;;
     s.dept = &quot;CSE&quot;;
     System.out.println(&quot;Name is &quot; + s.name + &quot; bearing Roll Number &quot; + s.rollno + &quot; in Department &quot; +
